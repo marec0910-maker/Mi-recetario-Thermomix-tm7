@@ -1,0 +1,1 @@
+{"name":"mi-recetario-thermomix-tm7","version":"1.0.0","private":true,"scripts":{"start":"python3 -m http.server 8000 --bind 0.0.0.0","test":"playwright test"},"devDependencies":{"@playwright/test":"1.61.0"}}
