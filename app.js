@@ -28,7 +28,7 @@ function showAdapt(id){
     'Si el volumen, los huesos o el tipo de alimento no permiten cocinar todo en el vaso, explica qué parte preparar fuera de la Thermomix.',
     'Incluye precauciones relevantes (capacidad, salpicaduras, vapor y cocción completa de carnes).',
     'Entrégame una versión fácil de copiar al recetario, conservando la receta original. Señala lo que debo comprobar antes de cocinar.'
-  ].join('\\n');
+  ].join('\n');
   $('#adapt-text').value=prompt;
   $('#adapt-status').textContent='Copia el texto y pégalo en ChatGPT. La receta original no cambiará.';
   $('#adapt-dialog').showModal();
